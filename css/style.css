@@ -12,14 +12,20 @@ body{
 	margin-right: auto;
 	margin-left: auto;
 
+
 }
 
-.nav{
-	font-size: 2em;
+.header{
 	background-color: white;
 	box-shadow: 0px 4px 8px rgba(0,0,0,0.50);
 	margin-bottom: 50px;
 	height: 120px;
+	
+}
+
+.nav{
+	font-size: 1em;
+	float:right;
 
 }
 
@@ -68,6 +74,43 @@ body{
 }
 
 @media screen and (min-width: 768px) {
+
+
+/*this is not done need to fix header*/
+.header{
+	position: relative;
+}
+.nav{
+	position: absolute;
+	bottom: 3px;
+	display: block;
+}
+
+.about{
+	color:red;
+	display: inline;
+	position: absolute;
+	
+
+}
+
+.experience{
+	color:red;
+	display:inline;
+	position: absolute;
+	
+}
+
+.projects{
+	color:red;
+	display: inline;
+	position: absolute;
+	
+}
+/*^^^^^^this is not done need to fix header*/
+
+
+
     .col-xs-12{
     	background: url(../images/test123.jpg);
 		background-size: cover;
