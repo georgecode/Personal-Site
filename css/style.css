@@ -19,13 +19,24 @@ body{
 	background-color: white;
 	box-shadow: 0px 4px 8px rgba(0,0,0,0.50);
 	margin-bottom: 50px;
-	height: 120px;
+	height: 107px;
 	
+}
+
+.logo{
+	background-color:rgba(249,199,0,0.6);
+	height: 72px;
+	width:158px;
+	margin-top:10px;
+	margin-left: 10px;
+	position: absolute;
+
 }
 
 .nav{
 	font-size: 1em;
 	float:right;
+
 
 }
 
@@ -51,20 +62,20 @@ body{
 }
 
 .red{
-	background-color: red;
+	background-color: ;
 	
 }
 
-.hideMe{
+.ggghideMe, .hideMe{
 	display:none;
 }
 
 .green{
-	background-color: green;
+	background-color: ;
 }
 
 .blue{
-	background-color: blue;
+	background-color:;
 
 }
 
@@ -73,17 +84,58 @@ body{
 	background-color: rgba(249,199,0,0.95);
 }
 
+.mainContent{
+	margin-bottom: 100px;
+}
+
+.divide{
+	height: 1px;
+	width: 100%;
+	background-color: black;
+	margin-bottom: 50px;
+}
+
 @media screen and (min-width: 768px) {
 
 
 /*this is not done need to fix header*/
+
+
+
 .header{
 	position: relative;
+	height: 120px;
 }
+
+.logo{
+	
+	height: 95px;
+	width:210px;
+	
+
+}
+
+
 .nav{
-	position: absolute;
+	position:absolute;
 	bottom: 3px;
-	display: block;
+	right: 20px;
+
+}
+
+
+ul{
+	float:left;
+
+}
+
+li{
+	float: left;
+
+}
+
+a{
+
 }
 
 .about{
@@ -109,10 +161,17 @@ body{
 }
 /*^^^^^^this is not done need to fix header*/
 
-
-
-    .col-xs-12{
+	.col-xs-12.red{
     	background: url(../images/test123.jpg);
+    }
+
+    .col-xs-12.green{
+    	background: url(../images/logos2.jpg);
+
+    }
+
+    .col-xs-12.red,.col-xs-12.green,.col-xs-12.blue {
+    	
 		background-size: cover;
         height:456px;
         width:32%;	
@@ -121,11 +180,13 @@ body{
         
     }
 
+
+
     .aboutMe:hover{
 
     }
 
-    .aboutMe{
+    .gggaboutMe, .aboutMe{
     	color:black;
     	position: absolute;
     	margin-bottom: 0px;
@@ -137,11 +198,5 @@ body{
     }
 
 
-    .aboutMe:hover{
-        height: 100%;
-        background-color:;
-        transition: background-color 0.5s ease;
 
-
-    }
 }
