@@ -7,6 +7,7 @@ body{
 
 
 
+
 .mainWrapper{
 	max-width: 1040px;
 	margin-right: auto;
@@ -19,18 +20,29 @@ body{
 	background-color: white;
 	box-shadow: 0px 4px 8px rgba(0,0,0,0.50);
 	margin-bottom: 50px;
-	height: 107px;
+	height: 120px;
 	
 }
 
 .logo{
-	background-color:rgba(249,199,0,0.6);
-	height: 72px;
-	width:158px;
-	margin-top:10px;
-	margin-left: 10px;
+	background: url(../images/meLogo2.png);
+	background-size: cover;
+	/*background-color:rgba(249,199,0,0.6);*/
+	height: 130px;
+	width:97px;
+	margin-top:1px;
+	margin-left: 5px;
 	position: absolute;
 
+}
+
+.navTitle{
+	font-size: 1.5em;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+	font-weight: 200;
+	position: relative;
+	margin-left: 160px;
+	padding-top: 20px;
 }
 
 .nav{
@@ -42,13 +54,27 @@ body{
 
 
 
-.col-xs-12{
+.mainContent .col-xs-12{
 
 	height:100px;
-	background-color: yellow;
+	/*background-color: yellow;*/
 	box-shadow: 0px 4px 8px rgba(0,0,0,0.50);
 
 	
+}
+
+.title{
+	padding-left: 20px;
+	font-size: 3.5em;
+	text-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+	font-weight: 300;
+}
+.subTitle{
+	font-size:1.5em;
+	margin-top: -1px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	font-weight: 200;
 }
 
 
@@ -57,29 +83,29 @@ body{
 	
 
 }
-.red, .green, .blue{
+.aboutBox, .experienceBox, .projectsBox{
 	margin-bottom: 10px;
 }
 
-.red{
+.aboutBox{
 	background-color: ;
 	
 }
 
-.ggghideMe, .hideMe{
+.experienceHide, .aboutHide, .projectsHide{
 	display:none;
 }
 
-.green{
+.experienceBox{
 	background-color: ;
 }
 
-.blue{
+.projectsBox{
 	background-color:;
 
 }
 
-.red, .green, .blue{
+.aboutBox, .experienceBox, .projectsBox{
 	margin-bottom: 10px;
 	background-color: rgba(249,199,0,0.95);
 }
@@ -95,22 +121,63 @@ body{
 	margin-bottom: 50px;
 }
 
+.siteContent{
+	margin-bottom: 50px;
+}
+
+.site{
+	background-color: black;
+	height: 150px;
+
+}
+
+.one, .two, .three{
+	margin-bottom: 15px;
+
+}
+
+
+/*----------------------------------*/
+/*---------START FULL SCREEN--------*/
 @media screen and (min-width: 768px) {
 
 
 /*this is not done need to fix header*/
+.navContain{
+	position:fixed;
+	z-index:700;
+	left:0;
 
+}
+
+.title{
+	padding-left: 20px;
+	font-size: 3.5em;
+	text-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+	font-weight: 300;
+}
+.subTitle{
+	font-size:1.5em;
+	margin-top: -1px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	font-weight: 200;
+}
+
+.mainContent{
+	padding-top: 160px;
+}
 
 
 .header{
 	position: relative;
-	height: 120px;
+	height: 145px;
 }
 
 .logo{
 	
-	height: 95px;
-	width:210px;
+	height: 160px;
+	width:119px;
 	
 
 }
@@ -138,7 +205,7 @@ a{
 
 }
 
-.about{
+.aboutNav{
 	color:red;
 	display: inline;
 	position: absolute;
@@ -146,14 +213,14 @@ a{
 
 }
 
-.experience{
+.experienceNav{
 	color:red;
 	display:inline;
 	position: absolute;
 	
 }
 
-.projects{
+.projectsNav{
 	color:red;
 	display: inline;
 	position: absolute;
@@ -161,16 +228,19 @@ a{
 }
 /*^^^^^^this is not done need to fix header*/
 
-	.col-xs-12.red{
-    	background: url(../images/test123.jpg);
+	.col-xs-12.aboutBox{
+    	background: url(../images/mePacifica.jpg);
     }
 
-    .col-xs-12.green{
+    .col-xs-12.experienceBox{
     	background: url(../images/logos2.jpg);
 
     }
+    .col-xs-12.projectsBox{
+    	background: url(../images/scafold3.jpg);
+    }
 
-    .col-xs-12.red,.col-xs-12.green,.col-xs-12.blue {
+    .col-xs-12.aboutBox,.col-xs-12.experienceBox,.col-xs-12.projectsBox {
     	
 		background-size: cover;
         height:456px;
@@ -185,8 +255,8 @@ a{
     .aboutMe:hover{
 
     }
-
-    .gggaboutMe, .aboutMe{
+    
+    .experience, .aboutMe, .projects {
     	color:black;
     	position: absolute;
     	margin-bottom: 0px;
@@ -197,6 +267,10 @@ a{
     	bottom: 0px;
     }
 
+    .site{
+    	  margin-right: 1.33333%
+    }
+	
 
 
 }
