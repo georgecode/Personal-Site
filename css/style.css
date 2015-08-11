@@ -1,11 +1,87 @@
-body{
-	background: url(../images/bg-SF-city.jpg);
-	background-size: cover;
-
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
+/*---------------End Reset--------------*/
 
 
+
+
+
+body{
+	background: url(../images/bg-SF-city.jpg) center center fixed;
+	background-size: cover;
+	color: #2b4754;
+	font-family: 'Oswald', sans-serif;
+	line-height: 1.2;
+}
+
+p{
+	font-weight: 200;
+}
+
+a{
+	color: #2b4754;
+}
+
+a:hover{
+	/*color: #0c0c6b;*/
+	color: white;
+}
+/*-----This get's rid of typed.js cursor-----*/
+.typed-cursor{
+	display:none;
+}
+/*-----This get's rid of typed.js cursor-----*/
+
+h2{
+	font-size: 2em;
+	margin-bottom: 10px;
+}
 
 
 .mainWrapper{
@@ -17,19 +93,34 @@ body{
 }
 
 .header{
-	background-color: white;
+	margin-right: -13px;
+    margin-left: -13px;
+	position: relative;
+	/*background-color: #1e3239;*/
 	box-shadow: 0px 4px 8px rgba(0,0,0,0.50);
-	margin-bottom: 50px;
-	height: 120px;
-	
+	margin-bottom: 0px;
+	/*height: 120px; For smaller header*/
+	height: 145px; 
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#294f38+2,1e3239+48 */
+	background: #294f38; /* Old browsers */
+	background: -moz-linear-gradient(top,  #294f38 2%, #1e3239 48%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(2%,#294f38), color-stop(48%,#1e3239)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #294f38 2%,#1e3239 48%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #294f38 2%,#1e3239 48%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #294f38 2%,#1e3239 48%); /* IE10+ */
+	background: linear-gradient(to bottom,  #294f38 2%,#1e3239 48%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#294f38', endColorstr='#1e3239',GradientType=0 ); /* IE6-9 */
+
 }
 
 .logo{
-	background: url(../images/meLogo2.png);
+	background: url(../images/meLogoFinal.png);
 	background-size: cover;
 	/*background-color:rgba(249,199,0,0.6);*/
-	height: 130px;
-	width:97px;
+	/*height: 130px;For smaller header*/
+	/*width:98px;For smaller header*/
+	height: 160px;
+	width:121px;
 	margin-top:1px;
 	margin-left: 5px;
 	position: absolute;
@@ -37,44 +128,261 @@ body{
 }
 
 .navTitle{
+	color:rgba(215,229,92,0.95);
+	display:none;
 	font-size: 1.5em;
-	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+	text-shadow: 1px 1px 1px rgba(255,255,255,0.2);
 	font-weight: 200;
 	position: relative;
 	margin-left: 160px;
 	padding-top: 20px;
 }
 
-.nav{
-	font-size: 1em;
-	float:right;
-
+.nav > li > a {
+	padding-top: 5px;
 
 }
 
+
+/*
+.nav > li{
+	float:none;
+}
+*/
+
+.nav > li > a:hover{
+	/*background-color: rgba(249,226,0,0.6);*/
+	background-color: rgba(255,255,255,0.1);
+	border-radius: 2px;
+}
+
+
+.nav{
+	font-size: 1em;
+	float:right;
+	position:absolute;
+	right: 20px;
+	margin-top: 10px;
+}
+
+.overviewNav, .aboutNav, .experienceNav, .projectsNav{
+	/*color:#630063;*/
+	color:rgba(215,229,92,0.95);
+	display: inline;
+	position: absolute;
+	font-size: 0.9em ;
+	text-shadow: 1px 1px 5px rgba(0,0,0,0.2);
+	line-height: 1;
+	
+}
+
+	.aboutPage .aboutNav, 
+	.overviewPage .overviewNav, 
+	.experiencePage .experienceNav, 
+	.projectsPage .projectsNav  {
+	font-size: 1em;
+	color:white;
+	border: solid rgba(215,229,92,0.95) 1px;
+
+	
+	}
+
+.aboutPage .content p,
+.projectsPage .content p{
+	font-family: 'Oswald', sans-serif;
+	padding-bottom: 10px;
+}
+
+.aboutPage .content h3,
+.projectsPage .content h3{
+	text-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+	font-weight: 300;
+	font-size: 2em;
+}
 
 
 .mainContent .col-xs-12{
 
 	height:100px;
 	/*background-color: yellow;*/
-	box-shadow: 0px 4px 8px rgba(0,0,0,0.50);
+	box-shadow: 0px 4px 8px rgba(0,0,0,0.50);	
+}
+/*--about page content--*/
+.content{
+	background-color: rgba(255,255,255,0.7);
 
+	margin-bottom: 12px;
+	box-shadow: 0px 4px 8px rgba(0,0,0,0.30);
+	padding:15px;
+	min-height: 200px;
+}
+
+.content h3{
+	font-size: 1.5em;
+	margin-bottom: 15px;
+	font-weight: 500;
+	text-shadow: 0px 1px 1px rgba(0,0,0,0.30);
+}
+.content p{
+
+
+}
+
+.aboutPic{
+	
+	height:150px;
+	width:150px;
+	box-shadow: 0px 4px 8px rgba(0,0,0,0.50);
+	display:block;
+	float: right;
+	margin:10px;
+}
+
+.ComputerOutsidePic{
+	background: url(../images/outsideComp2.JPG);
+	background-size: cover;
+}
+
+.surfingPic{
+	background: url(../images/surfing3.jpg);
+	background-size: cover;
+}
+
+.AsGamePic{
+	background: url(../images/AsGame.jpg);
+	background-size: cover;
+}
+/*--End about page content--*/
+
+
+/*--Projects page content--*/
+.quickDraw, .frogpic{
+	display:block;
+	float: right;
+	margin-left: 10px;
+
+}
+.quickDraw{
+	background: url(../images/quickDraw.png);
+	background-size: cover;
+	width: 166px;
+	height:320px;
+
+}
+
+.reviewPic{
+	background: url(../images/OnSiteReview1.jpg);
+	background-size: cover;
+	width: 440px;
+	height:180px;
+	box-shadow: 0px 4px 8px rgba(0,0,0,0.30);
+	margin-left: 10px;
+
+}
+	
+.frogpic{
+	background: url(../images/iphoneFrogsmall.png);
+	background-size: cover;
+	width: 166px;
+	height:350px;
+
+}
+.projectsPage .content{
+	min-height: 350px;
+}
+
+/*--End Projects page content--*/
+/*--Experiance page content--*/
+
+
+
+.toolContainer{
+	height:500px;
 	
 }
 
+.toolPics{
+	position: relative;
+	background: url(../images/justLogos.png) no-repeat;
+	background-position:1px 60px;
+	background-color:rgba(255, 255, 255, .2) ;
+	width:60%;
+	height: 467px;
+	margin-top: 20px;
+	box-shadow: 0px 4px 8px rgba(0,0,0,0.30);
+	float:right;
+	width:60%;
+	margin-left: 10px;
+	margin-bottom: 8px;
+}
+
+.skillTitle{
+	display: block;
+	margin-top: 10px;
+	color:#34576e;
+	font-size: 2em;
+	text-align: center;
+	
+}
+
+.beginner{
+	display: absolute;
+	margin-left:20px;
+	top: 25px;
+	display: inline;
+
+}
+.expert{
+	float:right;
+	display: inline;
+	margin-right: 10px;
+}
+
+.skillmeter{
+	position: relative;
+	margin-top: 19px;
+}
+
+
+.skill{
+	position: relative;
+	margin-left: 55px;
+	height:20px;
+	width: 0px;
+	background-color: rgba(215,229,92,0.95);
+	margin-bottom:29px;
+	border-radius: 5px;
+	/*border:1px solid black;*/
+	box-shadow: 0px 2px 4px rgba(0,0,0,0.90);
+
+}
+
+.skill1{
+
+}
+.skill2{
+	
+}
+
+.skill3{
+
+}
+
+/*--End Experiance page content--*/
+
+
 .title{
-	padding-left: 20px;
-	font-size: 3.5em;
+	padding-left: 10px;
+	font-size: 8.5vw;
 	text-shadow: 1px 1px 5px rgba(0,0,0,0.1);
-	font-weight: 300;
+	font-weight: 400;
 }
 .subTitle{
-	font-size:1.5em;
+	font-size:3.5vw;
 	margin-top: -1px;
 	padding-bottom: 20px;
-	padding-left: 30px;
-	font-weight: 200;
+	padding-left: 20px;
+	font-weight: 300;
 }
 
 
@@ -86,6 +394,11 @@ body{
 .aboutBox, .experienceBox, .projectsBox{
 	margin-bottom: 10px;
 }
+/*
+.experience, .aboutMe, .projects {
+	background-color: rgba(249,226,0,0);
+}
+*/
 
 .aboutBox{
 	background-color: ;
@@ -107,11 +420,13 @@ body{
 
 .aboutBox, .experienceBox, .projectsBox{
 	margin-bottom: 10px;
-	background-color: rgba(249,199,0,0.95);
+	/*background-color: rgba(249,226,0,0.95);*/
+	background-color: rgba(215,229,92,0.95);
 }
 
 .mainContent{
 	margin-bottom: 100px;
+	padding-top: 40px;
 }
 
 .divide{
@@ -135,7 +450,75 @@ body{
 	margin-bottom: 15px;
 
 }
+@media screen and (min-width: 370px) {
+	.title{
+	padding-left: 20px;
+	font-size: 9.5vw;
+	
+	font-weight: 300;
+	}
+	.subTitle{
+	font-size:4.5vw;
+	padding-left: 30px;
+	font-weight: 200;
+	}
+}
 
+
+
+@media screen and (min-width: 484px) {
+	.title{	
+	font-size: 3.5em;
+	}
+	
+	.subTitle{
+		font-size:1.5em;
+	}
+}
+
+
+
+@media screen and (min-width: 688px) {
+	.header{
+	margin-right: 0px;
+    margin-left: 0px;
+	}
+
+	.navTitle{
+	display:block;
+	}
+	.nav{
+	float:right;
+	position:absolute;
+	bottom: -10px;
+	right: 20px;
+
+	}
+
+
+	.nav > li {
+    float: left;
+	}
+
+	.nav > li > a {
+		padding-top: 20px;
+	}
+
+
+	.aboutPage .aboutNav, 
+	.overviewPage .overviewNav, 
+	.experiencePage .experienceNav, 
+	.projectsPage .projectsNav  {
+	font-size: 1.5em;	
+	border:none;
+	border-bottom: solid rgba(215,229,92,0.95) 10px;
+	}
+
+	.overviewNav, .aboutNav, .experienceNav, .projectsNav{
+	font-size: 1.5em ;
+	line-height: .2;
+	}
+}
 
 /*----------------------------------*/
 /*---------START FULL SCREEN--------*/
@@ -147,9 +530,12 @@ body{
 	position:fixed;
 	z-index:700;
 	left:0;
-
 }
 
+
+
+
+/*
 .title{
 	padding-left: 20px;
 	font-size: 3.5em;
@@ -163,32 +549,28 @@ body{
 	padding-left: 30px;
 	font-weight: 200;
 }
-
+*/
 .mainContent{
-	padding-top: 160px;
+	padding-top: 180px;
 }
 
 
 .header{
 	position: relative;
 	height: 145px;
+
 }
 
 .logo{
 	
 	height: 160px;
-	width:119px;
+	width:121px;
 	
 
 }
 
 
-.nav{
-	position:absolute;
-	bottom: 3px;
-	right: 20px;
 
-}
 
 
 ul{
@@ -205,16 +587,11 @@ a{
 
 }
 
-.aboutNav{
-	color:red;
-	display: inline;
-	position: absolute;
-	
 
-}
 
+/*
 .experienceNav{
-	color:red;
+	color:#630063;
 	display:inline;
 	position: absolute;
 	
@@ -226,30 +603,34 @@ a{
 	position: absolute;
 	
 }
+*/
 /*^^^^^^this is not done need to fix header*/
 
 	.col-xs-12.aboutBox{
     	background: url(../images/mePacifica.jpg);
+    	background-size: cover;
     }
 
     .col-xs-12.experienceBox{
-    	background: url(../images/logos2.jpg);
+    	background: url(../images/officespaceSm.jpg);
+    	background-size:150%;
 
     }
     .col-xs-12.projectsBox{
     	background: url(../images/scafold3.jpg);
+    	background-size: cover;
+    	
     }
 
     .col-xs-12.aboutBox,.col-xs-12.experienceBox,.col-xs-12.projectsBox {
     	
-		background-size: cover;
         height:456px;
         width:32%;	
     	margin-right: 1.33333%;
     	box-shadow: 0px 4px 8px rgba(0,0,0,0.50);
         
     }
-
+   
 
 
     .aboutMe:hover{
@@ -260,7 +641,7 @@ a{
     	color:black;
     	position: absolute;
     	margin-bottom: 0px;
-    	background-color: rgba(249,199,0,0.6);
+    	background-color: rgba(215,229,92,0.95);
     	margin-left: -15px;
     	width: 100%;
     	height: 100px;
@@ -274,3 +655,25 @@ a{
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
