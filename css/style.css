@@ -83,6 +83,38 @@ h2{
 	margin-bottom: 10px;
 }
 
+.ContactBtnTop, .ContactBtnTopMobil{
+	
+	
+	color:rgba(255,255,255,0.90);
+	text-shadow: 0px 1px 1px rgba(0,0,0,0.30);	
+	border: 0;
+	border-radius: 5px;
+	box-shadow: 4px 8px 16px rgba(0,0,0,0.50);
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d7e55c+0,6dce06+49,d7e55c+100,7db9e8+100 */
+	background: #d7e55c; /* Old browsers */
+	background: -moz-linear-gradient(top,  #d7e55c 0%, #6dce06 49%, #d7e55c 100%, #7db9e8 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d7e55c), color-stop(49%,#6dce06), color-stop(100%,#d7e55c), color-stop(100%,#7db9e8)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #d7e55c 0%,#6dce06 49%,#d7e55c 100%,#7db9e8 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #d7e55c 0%,#6dce06 49%,#d7e55c 100%,#7db9e8 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #d7e55c 0%,#6dce06 49%,#d7e55c 100%,#7db9e8 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #d7e55c 0%,#6dce06 49%,#d7e55c 100%,#7db9e8 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d7e55c', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+
+}
+.ContactBtnTopMobil{
+	width:100%;
+	height:90px;
+	font-size: 1.8em;
+	margin-bottom: 25px;
+	margin-top: -15px;
+}
+.ContactBtnTop{
+	font-size: 1.5em;
+	display:none;
+	width: 180px;
+	height:70px;
+}
 
 .mainWrapper{
 	max-width: 1040px;
@@ -130,12 +162,14 @@ h2{
 .navTitle{
 	color:rgba(215,229,92,0.95);
 	display:none;
+	max-width: 300px;
 	font-size: 1.5em;
 	text-shadow: 1px 1px 1px rgba(255,255,255,0.2);
 	font-weight: 200;
 	position: relative;
 	margin-left: 160px;
 	padding-top: 20px;
+
 }
 
 .nav > li > a {
@@ -467,6 +501,17 @@ h2{
 
 
 @media screen and (min-width: 484px) {
+	.ContactBtnTopMobil{
+		display:none;
+	}
+
+	.ContactBtnTop{
+	display:block;
+	float:right;
+	margin-top: 30px;
+	margin-right: 30%;
+	
+}
 	.title{	
 	font-size: 3.5em;
 	}
@@ -483,9 +528,23 @@ h2{
 	margin-right: 0px;
     margin-left: 0px;
 	}
+	
+	.ContactBtnTop{
+	
+	margin-top: 10px;
+	margin-right:10px;
+	display:block;
+
+	
+	}
+
+	.ContactBtnTop:hover{
+		border: 2px solid #294f38
+	}
 
 	.navTitle{
 	display:block;
+	z-index: 799;
 	}
 	.nav{
 	float:right;
