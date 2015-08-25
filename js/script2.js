@@ -1,5 +1,5 @@
  $(function(){
-        $(".navTitle").typed({
+        $(".overviewPage .navTitle").typed({
             strings: ["Together we can develop the future. ^750 <br>One line at a time."],
             typeSpeed: 0
         });

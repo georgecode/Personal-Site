@@ -112,7 +112,8 @@ h2{
 .ContactBtnTop{
 	font-size: 1.5em;
 	display:none;
-	width: 180px;
+	/*width: 180px;*/
+	width:40%;
 	height:70px;
 }
 
@@ -241,6 +242,31 @@ h2{
 	/*background-color: yellow;*/
 	box-shadow: 0px 4px 8px rgba(0,0,0,0.50);	
 }
+/*-- Overview Page--*/
+
+
+.one{
+	background: url(../images/quickDrawWide.jpg);
+	background-size: cover;
+
+}
+.two{
+	background: url(../images/NJFrogWide.jpg);
+	background-size: cover;
+
+}
+.three{
+	background: url(../images/EzKeysLogoWide.jpg) center;
+	background-size: cover;
+
+}
+
+/*-- END Overview Page--*/
+
+
+
+
+
 /*--about page content--*/
 .content{
 	background-color: rgba(255,255,255,0.7);
@@ -264,8 +290,8 @@ h2{
 
 .aboutPic{
 	
-	height:150px;
-	width:150px;
+	height:100px;
+	width:100px;
 	box-shadow: 0px 4px 8px rgba(0,0,0,0.50);
 	display:block;
 	float: right;
@@ -297,30 +323,37 @@ h2{
 
 }
 .quickDraw{
-	background: url(../images/quickDraw.png);
+	background: url(../images/QD_logo.png);
 	background-size: cover;
-	width: 166px;
-	height:320px;
-
-}
-
-.reviewPic{
-	background: url(../images/OnSiteReview1.jpg);
-	background-size: cover;
-	width: 440px;
-	height:180px;
-	box-shadow: 0px 4px 8px rgba(0,0,0,0.30);
-	margin-left: 10px;
-
-}
+	width: 70px;
+	height:70px;
+	border-radius: 10px;
+	box-shadow: 0px 4px 8px rgba(0,0,0,0.90);
+	margin-bottom: 15px;
 	
-.frogpic{
-	background: url(../images/iphoneFrogsmall.png);
-	background-size: cover;
-	width: 166px;
-	height:350px;
 
 }
+
+
+.frogpic{
+	background: url(../images/NJFrogProject.jpg);
+	background-size: cover;
+	width:70px;
+	height:56px;
+	border-radius: 10px;
+	box-shadow: 4px 8px 16px rgba(0,0,0,0.90);
+	margin-bottom: 15px;
+
+}
+
+.ezKeysMacBook{
+		background: url(../images/EzKeysmacbookSmall.png);
+		background-size: cover;
+		width:300px;
+		height:174px;
+		margin:auto;
+	}
+
 .projectsPage .content{
 	min-height: 350px;
 }
@@ -407,12 +440,13 @@ h2{
 
 .title{
 	padding-left: 10px;
-	font-size: 8.5vw;
+	font-size: 9.0vw;
 	text-shadow: 1px 1px 5px rgba(0,0,0,0.1);
-	font-weight: 400;
+	font-weight: 300;
+	padding-bottom: 10px;
 }
 .subTitle{
-	font-size:3.5vw;
+	/*font-size:3.5vw;*/
 	margin-top: -1px;
 	padding-bottom: 20px;
 	padding-left: 20px;
@@ -477,6 +511,8 @@ h2{
 .site{
 	background-color: black;
 	height: 150px;
+	box-shadow: 2px 4px 8px rgba(0,0,0,0.90)
+
 
 }
 
@@ -486,19 +522,45 @@ h2{
 }
 @media screen and (min-width: 370px) {
 	.title{
-	padding-left: 20px;
-	font-size: 9.5vw;
-	
-	font-weight: 300;
+		padding-left: 20px;
+		font-size: 9.5vw;
+		font-weight: 300;
 	}
+
 	.subTitle{
-	font-size:4.5vw;
-	padding-left: 30px;
-	font-weight: 200;
+		font-size:4.5vw;
+		padding-left: 30px;
+		font-weight: 200;
 	}
+	.aboutPic{
+		height:150px;
+		width:150px;
+	}
+
+	.frogpic{
+		width:90px;
+		height:72px;
+	}
+	.reviewPic{
+		background: url(../images/OnSiteReview1.jpg);
+		background-size: cover;
+		width: 300px;
+		height:123px;
+		box-shadow: 0px 4px 8px rgba(0,0,0,0.30);
+	}
+
+
 }
 
+@media screen and (min-width: 440px){
+	.reviewPic{
+	width: 350px;
+	height:143px;
+	margin-left: 10px;
+	}
 
+
+}
 
 @media screen and (min-width: 484px) {
 	.ContactBtnTopMobil{
@@ -511,7 +573,7 @@ h2{
 	margin-top: 30px;
 	margin-right: 30%;
 	
-}
+	}
 	.title{	
 	font-size: 3.5em;
 	}
@@ -519,9 +581,36 @@ h2{
 	.subTitle{
 		font-size:1.5em;
 	}
+
+	.frogpic{
+	background: url(../images/iphoneFrogsmall.png);
+	background-size: cover;
+	width: 166px;
+	height:350px;
+	border-radius: none;
+	box-shadow: none;
+	margin-bottom: none;
+	}
+
+	.ezKeysMacBook{
+		
+		width:400px;
+		height:232px;
+
+	}
+
+
 }
 
+@media screen and (min-width: 530px) {
+	.reviewPic{
+	width: 440px;
+	height:180px;
+	}
 
+	
+
+}
 
 @media screen and (min-width: 688px) {
 	.header{
@@ -530,7 +619,7 @@ h2{
 	}
 	
 	.ContactBtnTop{
-	
+	width: 180px;
 	margin-top: 10px;
 	margin-right:10px;
 	display:block;
@@ -577,6 +666,23 @@ h2{
 	font-size: 1.5em ;
 	line-height: .2;
 	}
+
+	.quickDraw{
+	background: url(../images/quickDraw.png);
+	background-size: cover;
+	width: 166px;
+	height:320px;
+	border-radius: none;
+	box-shadow: none;
+	margin-bottom: none;
+	}
+
+	.ezKeysMacBook{
+		width:601px;
+		height:349px;
+	}
+
+	
 }
 
 /*----------------------------------*/
@@ -710,6 +816,18 @@ a{
     .site{
     	  margin-right: 1.33333%
     }
+
+    .two{
+	background: url(../images/NJFrogLogoFullScreen.jpg);
+	background-size: cover;
+
+	}
+
+	.three{
+	background: url(../images/EzKeysFullScreen.jpg);
+	background-size: cover;
+
+	}
 	
 
 
