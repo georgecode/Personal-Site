@@ -82,7 +82,7 @@ var mainContent = function(target,title,hiddenContent){
     	if (Modernizr.mq('(min-width: 767px)')) {
         $(title).stop(true,false).animate(
                 {"height": "100px"},
-                "slow").css({'background-color': 'rgba(215,229,92,0.6)'});
+                "slow").css({'background-color': 'rgba(215,229,92,0.95)'});
         /*$(".aboutHide").css({'display':'none'});*/
         $(hiddenContent).stop(true,false).fadeOut(500)
         
@@ -94,10 +94,49 @@ mainContent(".aboutBox",".aboutMe",".aboutHide")
 mainContent(".experienceBox",".experience",".experienceHide")
 mainContent(".projectsBox",".projects",".projectsHide")
 
+var projectSites = function(num){
+    var target= num +" .infoBar"
+    $(num).mouseenter(function() {
+            if (Modernizr.mq('(min-width: 767px)')) {
+                $(target).css({"display":"block"})
+
+            }
+    }) 
+
+    $(num).mouseleave(function() {
+            if (Modernizr.mq('(min-width: 767px)')) {
+                $(target).css({"display":"none"})
+
+            }
+    })               
+}
+
+
+// media query event handler
+if (matchMedia) {
+    /*var mq = window.matchMedia("(min-width: 767px)");*/
+    var mq = window.matchMedia("(min-width: 767px)");
+    mq.addListener(xxWidthChange);
+    xxWidthChange(mq);
+}
+
+// media query change
+function xxWidthChange(mq) {
+
+    if (mq.matches) {
+        $(".infoBar").css({"display":"none"})
+    }
+    else {
+        $(".infoBar").css({"display":"block"})
+    }
+
+}
 
 
 
-
+projectSites(".one")
+projectSites(".two")
+projectSites(".three")
 
 
 
