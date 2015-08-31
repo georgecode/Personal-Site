@@ -242,6 +242,17 @@ h2{
 	/*background-color: yellow;*/
 	box-shadow: 0px 4px 8px rgba(0,0,0,0.50);	
 }
+
+footer{
+	margin-top: 60px;
+	margin-bottom: 15px;
+}
+
+footer .gitHub{
+	margin-left: 15px;
+	width: 25px;
+	height:25px;
+}
 /*-- Overview Page--*/
 
 .overviewPage h3{
@@ -407,8 +418,22 @@ a .site .infoBar li{
 		display:none;
 	}
 
-.projectsPage .content{
-	min-height: 350px;
+
+
+.gitHub{
+	background: url(../images/GitHub.png);
+	background-size: cover;
+	width:40px;
+	height: 40px;
+}
+
+.gitHub.gitEz{
+	margin-top: 10px;
+
+}
+.gitHub.gitFrog{
+	margin-top: -30px;
+
 }
 
 /*--End Projects page content--*/
@@ -656,6 +681,10 @@ a .site .infoBar li{
 		height:232px;
 
 	}
+
+	.projectsPage .content{
+	min-height: 350px;
+}
 
 
 }
