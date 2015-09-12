@@ -4,8 +4,8 @@
             typeSpeed: 0
         });
     });
-
-
+//Hopefully this will prevent some spaming
+$(".myMail").append(" GeorgeCzurlanis@gmail.com")
 /*
 var typeing1 = function(){ 
     var r = $.Deferred();
