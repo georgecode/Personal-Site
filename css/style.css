@@ -147,7 +147,7 @@ h2{
 }
 
 .logo{
-	background: url(../images/meLogoFinal.png);
+	background: url(../images/melogoFinal.png);
 	background-size: cover;
 	/*background-color:rgba(249,199,0,0.6);*/
 	/*height: 130px;For smaller header*/
@@ -258,7 +258,7 @@ footer .gitHub{
 }
 
 .linkedIn{
-	background: url(../images/linkedInLogo.png);
+	background: url(../images/linkedinLogo.png);
 	background-size: cover;
 	width:20px;
 	height: 20px;
@@ -427,6 +427,27 @@ p.aboutHide, p.experienceHide, p.projectsHide{
 	text-decoration: underline;
 
 }
+
+.TechCol{
+	display:block;
+	margin-bottom: 70px;
+}
+
+.projectsPage h4 {
+	font-size: 1.5em;
+	font-weight: 300;
+	margin-bottom: 10px;
+	margin-top: 3px;
+}
+.projectsPage ul{
+	font-size: 1em;
+	font-weight: 300;
+	float:left;
+	margin-right: 15px;
+	margin-left: 15px;
+	margin: bottom:20px;
+}
+
 .quickDraw, .frogpic{
 	display:block;
 	float: right;
@@ -464,6 +485,7 @@ p.aboutHide, p.experienceHide, p.projectsHide{
 		height:174px;
 		margin:auto;
 		display:none;
+		margin-top: 10	0px;
 	}
 
 
@@ -476,12 +498,13 @@ p.aboutHide, p.experienceHide, p.projectsHide{
 }
 
 
+
 .gitHub.gitEz{
 	margin-top: 10px;
 
 }
 .gitHub.gitFrog{
-	margin-top: -30px;
+	margin-top: 100px;
 
 }
 
@@ -497,7 +520,7 @@ p.aboutHide, p.experienceHide, p.projectsHide{
 
 .toolPics{
 	position: relative;
-	background: url(../images/justLogos.png) no-repeat;
+	background: url(../images/JustLogos.png) no-repeat;
 	background-position:1px 60px;
 	background-color:rgba(255, 255, 255, .2) ;
 	width:60%;
@@ -551,6 +574,8 @@ p.aboutHide, p.experienceHide, p.projectsHide{
 
 }
 
+
+
 .skill1{
 
 }
@@ -579,7 +604,6 @@ p.aboutHide, p.experienceHide, p.projectsHide{
 	padding-left: 20px;
 	font-weight: 300;
 }
-
 
 
 .col-sm-4{
@@ -878,9 +902,6 @@ p.aboutHide, p.experienceHide, p.projectsHide{
 	
 
 }
-
-
-
 
 
 .overviewPage ul{
