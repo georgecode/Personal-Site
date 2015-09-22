@@ -418,7 +418,37 @@ p.aboutHide, p.experienceHide, p.projectsHide{
 	background-size: cover;
 }
 /*--End about page content--*/
+/*-- Experience Page--*/
+.experiencePage .mainContent ul{
+	margin-bottom: 20px;
 
+}
+.jobInfo li:nth-child(n+2){
+	float:left;
+	clear: left;
+}
+.jobInfo li:nth-child(n+3){
+	float:right;
+	clear:right;
+}
+
+.jobInfo li:nth-child(3){
+	margin-top: -18px;
+
+}
+
+.details{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	list-style-type: disc;
+	padding-left: 20px;
+}
+
+.details li{
+	margin-top: 10px;
+}
+
+/*-- End Experience Page --*/
 
 /*--Projects page content--*/
 
