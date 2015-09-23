@@ -78,6 +78,10 @@ a:hover{
 }
 /*-----This get's rid of typed.js cursor-----*/
 
+.nav{
+	font-weight: 300;
+}
+
 h2{
 	font-size: 2em;
 	margin-bottom: 10px;
@@ -196,7 +200,7 @@ h2{
 	font-size: 1em;
 	float:right;
 	position:absolute;
-	right: 20px;
+	right: 5px;
 	margin-top: 10px;
 }
 
@@ -423,6 +427,18 @@ p.aboutHide, p.experienceHide, p.projectsHide{
 	margin-bottom: 20px;
 
 }
+
+.resumeTitle{
+	text-align: center;
+}
+
+.experiencePage .mainContent h2{
+	margin-bottom: 0px;
+	font-size: 1.2em;
+	margin-top: 50px;
+}
+
+
 .jobInfo li:nth-child(n+2){
 	float:left;
 	clear: left;
@@ -438,10 +454,11 @@ p.aboutHide, p.experienceHide, p.projectsHide{
 }
 
 .details{
-	margin-top: 50px;
+	margin-top: 30px;
 	margin-bottom: 50px;
 	list-style-type: disc;
 	padding-left: 20px;
+	font-weight: 300;
 }
 
 .details li{
@@ -469,7 +486,7 @@ p.aboutHide, p.experienceHide, p.projectsHide{
 	margin-bottom: 10px;
 	margin-top: 3px;
 }
-.projectsPage ul{
+.projectsPage .mainContent ul{
 	font-size: 1em;
 	font-weight: 300;
 	float:left;
@@ -507,6 +524,12 @@ p.aboutHide, p.experienceHide, p.projectsHide{
 	margin-bottom: 15px;
 
 }
+
+.TechCol ul.TechUsedFix{
+		margin-left: -10px;
+		margin-right: -20px;
+	}
+
 
 .ezKeysMacBook{
 		background: url(../images/EzKeysmacbookSmall.png);
@@ -723,6 +746,8 @@ p.aboutHide, p.experienceHide, p.projectsHide{
 		width:90px;
 		height:72px;
 	}
+
+
 	.reviewPic{
 		background: url(../images/OnSiteReview1.jpg);
 		background-size: cover;
@@ -733,6 +758,11 @@ p.aboutHide, p.experienceHide, p.projectsHide{
 
 	.ezKeysMacBook{
 		display:block;
+	}
+
+	.TechCol ul.TechUsedFix{
+		margin-left: 15px;
+		margin-right: 0px;
 	}
 
 
