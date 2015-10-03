@@ -53,7 +53,7 @@ table {
 
 
 body{
-	background: url(../images/bg-SF-city.jpg) center center fixed;
+	background: url(../images/bg-SF-city4.jpg) center center fixed;
 	background-size: cover;
 	color: #2b4754;
 	font-family: 'Oswald', sans-serif;
@@ -151,7 +151,7 @@ h2{
 }
 
 .logo{
-	background: url(../images/melogoFinal.png);
+	background: url(../images/melogoFinal4.png);
 	background-size: cover;
 	/*background-color:rgba(249,199,0,0.6);*/
 	/*height: 130px;For smaller header*/
@@ -799,7 +799,7 @@ p.aboutHide, p.experienceHide, p.projectsHide{
 	}
 
 	.frogpic{
-	background: url(../images/iphoneFrogsmall.png);
+	background: url(../images/iphoneFrogsmall2.png);
 	background-size: cover;
 	width: 166px;
 	height:350px;
@@ -897,7 +897,7 @@ p.aboutHide, p.experienceHide, p.projectsHide{
 	}
 
 	.quickDraw{
-	background: url(../images/quickDraw.png);
+	background: url(../images/quickDraw2.png);
 	background-size: cover;
 	width: 166px;
 	height:320px;
@@ -1003,7 +1003,7 @@ a{
     }
 
     .col-xs-12.experienceBox{
-    	background: url(../images/officespaceSm.jpg);
+    	background: url(../images/officespaceSm2.jpg);
     	background-size:cover;
 
     }

@@ -6,6 +6,8 @@
     });
 //Hopefully this will prevent some spaming
 $(".myMail").append(" GeorgeCzurlanis@gmail.com")
+$(".PhoneMail").html("(609) 384-5438 | GeorgeCzurlanis@gmail.com")
+$(".address").html("1151 Wisconsin St., San Francisco, California 94107")
 /*
 var typeing1 = function(){ 
     var r = $.Deferred();
