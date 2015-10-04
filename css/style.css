@@ -223,6 +223,24 @@ h2{
 	box-shadow: 0px 4px 8px rgba(0,0,0,0.50);	
 }
 
+.mainContent{
+	margin-bottom: 50px;
+	padding-top: 40px;
+}
+
+.divide{
+	height: 1px;
+	width: 100%;
+	background-color: black;
+	margin-bottom: 20px;
+}
+
+.gitHub{
+	background: url(../images/GitHub.png);
+	background-size: cover;
+	width:40px;
+	height: 40px;
+}
 /*-------FOOTER START-------*/
 footer{
 	margin-top: -10px;
@@ -252,9 +270,9 @@ footer .gitHub{
 	font-size: 0.7em;
 	margin-top: 4px;
 }
-
-
 /*-------FOOTER END-------*/
+
+
 /*-- Overview Page--*/
 
 .overviewPage h3{
@@ -540,13 +558,6 @@ p.aboutHide, p.experienceHide, p.projectsHide{
 	margin-top: 10	0px;
 }
 
-.gitHub{
-	background: url(../images/GitHub.png);
-	background-size: cover;
-	width:40px;
-	height: 40px;
-}
-
 .gitHub.gitEz{
 	margin-top: 10px;
 }
@@ -558,80 +569,6 @@ p.aboutHide, p.experienceHide, p.projectsHide{
 /*--End Projects page content--*/
 
 
-/*--Experiance page content--*/
-/*
-.toolContainer{
-	height:500px;
-}
-
-.toolPics{
-	position: relative;
-	background: url(../images/JustLogos.png) no-repeat;
-	background-position:1px 60px;
-	background-color:rgba(255, 255, 255, .2) ;
-	width:60%;
-	height: 467px;
-	margin-top: 20px;
-	box-shadow: 0px 4px 8px rgba(0,0,0,0.30);
-	float:right;
-	width:60%;
-	margin-left: 10px;
-	margin-bottom: 8px;
-}
-
-.skillTitle{
-	display: block;
-	margin-top: 10px;
-	color:#34576e;
-	font-size: 2em;
-	text-align: center;
-}
-
-.beginner{
-	display: absolute;
-	margin-left:20px;
-	top: 25px;
-	display: inline;
-}
-
-.expert{
-	float:right;
-	display: inline;
-	margin-right: 10px;
-}
-
-.skillmeter{
-	position: relative;
-	margin-top: 19px;
-}
-
-.skill{
-	position: relative;
-	margin-left: 55px;
-	height:20px;
-	width: 0px;
-	background-color: rgba(215,229,92,0.95);
-	margin-bottom:29px;
-	border-radius: 5px;
-	box-shadow: 0px 2px 4px rgba(0,0,0,0.90);
-}
-*/
-/*--End Experiance page content--*/
-
-/*--overviewPage--*/
-
-/*--overviewPage END--*/
-.mainContent{
-	margin-bottom: 50px;
-	padding-top: 40px;
-}
-
-.divide{
-	height: 1px;
-	width: 100%;
-	background-color: black;
-	margin-bottom: 20px;
-}
 
 @media screen and (min-width: 370px) {
 	/*--overviewPage @370--*/
@@ -876,14 +813,15 @@ p.aboutHide, p.experienceHide, p.projectsHide{
 		height: 160px;
 		width:121px;
 	}
-	/*--All pages @768 END--*/
-	
-	.overviewPage ul{
-		float:left;
-	}
 
 	.nav li{
 		float: left;
+	}
+	/*--All pages @768 END--*/
+
+	/*--overviewPage @768--*/
+	.overviewPage ul{
+		float:left;
 	}
 
 	.col-xs-12.aboutBox{
@@ -906,8 +844,8 @@ p.aboutHide, p.experienceHide, p.projectsHide{
         width:32%;	
     	margin-right: 1.33333%;
     	box-shadow: 0px 4px 8px rgba(0,0,0,0.50);  
-    }   
-    
+    }
+
     .experience, .aboutMe, .projects {
     	color:black;
     	position: absolute;
@@ -919,7 +857,7 @@ p.aboutHide, p.experienceHide, p.projectsHide{
     	bottom: 0px;
     	padding-left: 10px;
     }
-
+    
     .site{
     	  margin-right: 1.33333%
     }
@@ -948,26 +886,7 @@ p.aboutHide, p.experienceHide, p.projectsHide{
 	a .site .infoBar li{
 		display:block;
 	}
-}
+	/*--overviewPage @768 END--*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}/*--@media 768px END--*/
 
