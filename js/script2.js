@@ -86,7 +86,7 @@ function xxWidthChange(mq) {
 projectSites(".one")
 projectSites(".two")
 projectSites(".three")
-//Slide up curtain animation on home page start
+//Slide up curtain animation on home page END
 
 
 
