@@ -69,7 +69,6 @@ a{
 }
 
 a:hover{
-	/*color: #0c0c6b;*/
 	color: white;
 }
 /*-----This get's rid of typed.js cursor-----*/
@@ -88,8 +87,6 @@ h2{
 }
 
 .ContactBtnTop, .ContactBtnTopMobil{
-	
-	
 	color:rgba(255,255,255,0.90);
 	text-shadow: 0px 1px 1px rgba(0,0,0,0.30);	
 	border: 0;
@@ -104,8 +101,8 @@ h2{
 	background: -ms-linear-gradient(top,  #d7e55c 0%,#6dce06 49%,#d7e55c 100%,#7db9e8 100%); /* IE10+ */
 	background: linear-gradient(to bottom,  #d7e55c 0%,#6dce06 49%,#d7e55c 100%,#7db9e8 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d7e55c', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
-
 }
+
 .ContactBtnTopMobil{
 	width:100%;
 	height:90px;
@@ -113,10 +110,10 @@ h2{
 	margin-bottom: 25px;
 	margin-top: -15px;
 }
+
 .ContactBtnTop{
 	font-size: 1.5em;
 	display:none;
-	/*width: 180px;*/
 	width:40%;
 	height:70px;
 }
@@ -125,15 +122,12 @@ h2{
 	max-width: 1040px;
 	margin-right: auto;
 	margin-left: auto;
-
-
 }
 
 .header{
 	margin-right: -13px;
     margin-left: -13px;
 	position: relative;
-	/*background-color: #1e3239;*/
 	box-shadow: 0px 4px 8px rgba(0,0,0,0.50);
 	margin-bottom: 0px;
 	/*height: 120px; For smaller header*/
@@ -153,7 +147,6 @@ h2{
 .logo{
 	background: url(../images/melogoFinal4.png);
 	background-size: cover;
-	/*background-color:rgba(249,199,0,0.6);*/
 	/*height: 130px;For smaller header*/
 	/*width:98px;For smaller header*/
 	height: 160px;
@@ -161,7 +154,6 @@ h2{
 	margin-top:1px;
 	margin-left: 5px;
 	position: absolute;
-
 }
 
 .navTitle{
@@ -174,27 +166,17 @@ h2{
 	position: relative;
 	margin-left: 160px;
 	padding-top: 20px;
-
 }
 
 .nav > li > a {
 	padding-top: 5px;
-
 }
-
-
-/*
-.nav > li{
-	float:none;
-}
-*/
 
 .nav > li > a:hover{
 	/*background-color: rgba(249,226,0,0.6);*/
 	background-color: rgba(255,255,255,0.1);
 	border-radius: 2px;
 }
-
 
 .nav{
 	font-size: 1em;
@@ -205,26 +187,22 @@ h2{
 }
 
 .overviewNav, .aboutNav, .experienceNav, .projectsNav{
-	/*color:#630063;*/
 	color:rgba(215,229,92,0.95);
 	display: inline;
 	position: absolute;
 	font-size: 0.9em ;
 	text-shadow: 1px 1px 5px rgba(0,0,0,0.2);
-	line-height: 1;
-	
+	line-height: 1;	
 }
 
-	.aboutPage .aboutNav, 
-	.overviewPage .overviewNav, 
-	.experiencePage .experienceNav, 
-	.projectsPage .projectsNav  {
+.aboutPage .aboutNav, 
+.overviewPage .overviewNav, 
+.experiencePage .experienceNav, 
+.projectsPage .projectsNav  {
 	font-size: 1em;
 	color:white;
 	border: solid rgba(215,229,92,0.95) 1px;
-
-	
-	}
+}
 
 .aboutPage .content p,
 .projectsPage .content p{
@@ -241,16 +219,14 @@ h2{
 
 
 .mainContent .col-xs-12{
-
 	height:100px;
-	/*background-color: yellow;*/
 	box-shadow: 0px 4px 8px rgba(0,0,0,0.50);	
 }
+
 /*-------FOOTER START-------*/
 footer{
 	margin-top: -10px;
 	margin-bottom: 15px;
-
 }
 
 footer .gitHub{
@@ -267,7 +243,6 @@ footer .gitHub{
 	width:20px;
 	height: 20px;
 	float: right;
-
 }
 
 .myMail{
@@ -286,18 +261,21 @@ footer .gitHub{
 	font-size: 1.2em;
 	text-decoration: underline;
 }
+
 .infoBar h3{
 	padding-bottom: 5px;
 	padding-left:5px;
 	padding-top: 5px;
 	font-weight: 600;
 }
+
 a .site .infoBar p{
 	display: none;
 	color: #2b4754;
 	padding-bottom: 8px;
 	padding-left: 10px;
 }
+
 a .site .infoBar li{
 	display:none;
 	color:#2b4754;
@@ -307,27 +285,29 @@ a .site .infoBar li{
 .infoBar ul{
 	margin-right: 10px;
 }
+
 .infoBar:first-child ul{
 	margin-left: 15px;
 	margin-right: 15px;
 }
+
 .two .infoBar:last-child ul{
 	margin-right:0px;
 }
+
 .one{
 	background: url(../images/quickDrawWide.jpg);
 	background-size: cover;
-
 }
+
 .two{
 	background: url(../images/NJFrogWide.jpg);
 	background-size: cover;
-
 }
+
 .three{
 	background: url(../images/EzKeysLogoWide.jpg) center;
 	background-size: cover;
-
 }
 
 .infoBar{
@@ -337,16 +317,11 @@ a .site .infoBar li{
 	height:50px;
 	width: 100%;
 	bottom:0px;
-
-
-
 }
 
 .projectsTitle{
 	margin-left: 35px;
-	
-	font-size: 1.5em;
-	
+	font-size: 1.5em;	
 }
 
 .aboutBox a:hover, .experienceBox a:hover, .projectsBox a:hover{
@@ -370,16 +345,51 @@ p.aboutHide, p.experienceHide, p.projectsHide{
 	text-decoration: underline;
 
 }
+
+.title{
+	padding-left: 10px;
+	font-size: 9.0vw;
+	text-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+	font-weight: 300;
+	padding-bottom: 10px;
+}
+
+.subTitle{
+	margin-top: -1px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	font-weight: 300;
+}
+
+.aboutBox, .experienceBox, .projectsBox{
+	margin-bottom: 10px;
+	margin-bottom: 10px;
+	background-color: rgba(215,229,92,0.95);
+}
+
+.experienceHide, .aboutHide, .projectsHide{
+	display:none;
+}
+
+.siteContent{
+	margin-bottom: 50px;
+}
+.site{
+	position: relative;
+	background-color: black;
+	height: 150px;
+	box-shadow: 2px 4px 8px rgba(0,0,0,0.90);
+}
+
+.one, .two, .three{
+	margin-bottom: 15px;
+}
+
 /*-- END Overview Page--*/
-
-
-
-
 
 /*--about page content--*/
 .content{
 	background-color: rgba(255,255,255,0.7);
-
 	margin-bottom: 12px;
 	box-shadow: 0px 4px 8px rgba(0,0,0,0.30);
 	padding:15px;
@@ -392,13 +402,8 @@ p.aboutHide, p.experienceHide, p.projectsHide{
 	font-weight: 500;
 	text-shadow: 0px 1px 1px rgba(0,0,0,0.30);
 }
-.content p{
-
-
-}
 
 .aboutPic{
-	
 	height:100px;
 	width:100px;
 	box-shadow: 0px 4px 8px rgba(0,0,0,0.50);
@@ -422,10 +427,10 @@ p.aboutHide, p.experienceHide, p.projectsHide{
 	background-size: cover;
 }
 /*--End about page content--*/
+
 /*-- Experience Page--*/
 .experiencePage .mainContent ul{
 	margin-bottom: 20px;
-
 }
 
 .resumeTitle{
@@ -438,11 +443,11 @@ p.aboutHide, p.experienceHide, p.projectsHide{
 	margin-top: 50px;
 }
 
-
 .jobInfo li:nth-child(n+2){
 	float:left;
 	clear: left;
 }
+
 .jobInfo li:nth-child(n+3){
 	float:right;
 	clear:right;
@@ -450,7 +455,6 @@ p.aboutHide, p.experienceHide, p.projectsHide{
 
 .jobInfo li:nth-child(3){
 	margin-top: -18px;
-
 }
 
 .details{
@@ -472,7 +476,6 @@ p.aboutHide, p.experienceHide, p.projectsHide{
 .projectsPage h3:hover{
 	color:#2b4754;
 	text-decoration: underline;
-
 }
 
 .TechCol{
@@ -486,6 +489,7 @@ p.aboutHide, p.experienceHide, p.projectsHide{
 	margin-bottom: 10px;
 	margin-top: 3px;
 }
+
 .projectsPage .mainContent ul{
 	font-size: 1em;
 	font-weight: 300;
@@ -499,8 +503,8 @@ p.aboutHide, p.experienceHide, p.projectsHide{
 	display:block;
 	float: right;
 	margin-left: 10px;
-
 }
+
 .quickDraw{
 	background: url(../images/QD_logo.png);
 	background-size: cover;
@@ -509,10 +513,7 @@ p.aboutHide, p.experienceHide, p.projectsHide{
 	border-radius: 10px;
 	box-shadow: 0px 4px 8px rgba(0,0,0,0.90);
 	margin-bottom: 15px;
-	
-
 }
-
 
 .frogpic{
 	background: url(../images/NJFrogProject.jpg);
@@ -522,26 +523,22 @@ p.aboutHide, p.experienceHide, p.projectsHide{
 	border-radius: 10px;
 	box-shadow: 4px 8px 16px rgba(0,0,0,0.90);
 	margin-bottom: 15px;
-
 }
 
 .TechCol ul.TechUsedFix{
-		margin-left: -10px;
-		margin-right: -20px;
-	}
-
+	margin-left: -10px;
+	margin-right: -20px;
+}
 
 .ezKeysMacBook{
-		background: url(../images/EzKeysmacbookSmall.png);
-		background-size: cover;
-		width:300px;
-		height:174px;
-		margin:auto;
-		display:none;
-		margin-top: 10	0px;
-	}
-
-
+	background: url(../images/EzKeysmacbookSmall.png);
+	background-size: cover;
+	width:300px;
+	height:174px;
+	margin:auto;
+	display:none;
+	margin-top: 10	0px;
+}
 
 .gitHub{
 	background: url(../images/GitHub.png);
@@ -550,25 +547,21 @@ p.aboutHide, p.experienceHide, p.projectsHide{
 	height: 40px;
 }
 
-
-
 .gitHub.gitEz{
 	margin-top: 10px;
-
 }
+
 .gitHub.gitFrog{
 	margin-top: 100px;
-
 }
 
 /*--End Projects page content--*/
+
+
 /*--Experiance page content--*/
-
-
-
+/*
 .toolContainer{
 	height:500px;
-	
 }
 
 .toolPics{
@@ -592,7 +585,6 @@ p.aboutHide, p.experienceHide, p.projectsHide{
 	color:#34576e;
 	font-size: 2em;
 	text-align: center;
-	
 }
 
 .beginner{
@@ -600,8 +592,8 @@ p.aboutHide, p.experienceHide, p.projectsHide{
 	margin-left:20px;
 	top: 25px;
 	display: inline;
-
 }
+
 .expert{
 	float:right;
 	display: inline;
@@ -613,7 +605,6 @@ p.aboutHide, p.experienceHide, p.projectsHide{
 	margin-top: 19px;
 }
 
-
 .skill{
 	position: relative;
 	margin-left: 55px;
@@ -622,80 +613,14 @@ p.aboutHide, p.experienceHide, p.projectsHide{
 	background-color: rgba(215,229,92,0.95);
 	margin-bottom:29px;
 	border-radius: 5px;
-	/*border:1px solid black;*/
 	box-shadow: 0px 2px 4px rgba(0,0,0,0.90);
-
-}
-
-
-
-.skill1{
-
-}
-.skill2{
-	
-}
-
-.skill3{
-
-}
-
-/*--End Experiance page content--*/
-
-
-.title{
-	padding-left: 10px;
-	font-size: 9.0vw;
-	text-shadow: 1px 1px 5px rgba(0,0,0,0.1);
-	font-weight: 300;
-	padding-bottom: 10px;
-}
-.subTitle{
-	/*font-size:3.5vw;*/
-	margin-top: -1px;
-	padding-bottom: 20px;
-	padding-left: 20px;
-	font-weight: 300;
-}
-
-
-.col-sm-4{
-	
-
-}
-.aboutBox, .experienceBox, .projectsBox{
-	margin-bottom: 10px;
-}
-/*
-.experience, .aboutMe, .projects {
-	background-color: rgba(249,226,0,0);
 }
 */
+/*--End Experiance page content--*/
 
-.aboutBox{
-	background-color: ;
-	
-}
+/*--overviewPage--*/
 
-.experienceHide, .aboutHide, .projectsHide{
-	display:none;
-}
-
-.experienceBox{
-	background-color: ;
-}
-
-.projectsBox{
-	background-color:;
-
-}
-
-.aboutBox, .experienceBox, .projectsBox{
-	margin-bottom: 10px;
-	/*background-color: rgba(249,226,0,0.95);*/
-	background-color: rgba(215,229,92,0.95);
-}
-
+/*--overviewPage END--*/
 .mainContent{
 	margin-bottom: 50px;
 	padding-top: 40px;
@@ -708,24 +633,8 @@ p.aboutHide, p.experienceHide, p.projectsHide{
 	margin-bottom: 20px;
 }
 
-.siteContent{
-	margin-bottom: 50px;
-}
-
-.site{
-	position: relative;
-	background-color: black;
-	height: 150px;
-	box-shadow: 2px 4px 8px rgba(0,0,0,0.90)
-
-
-}
-
-.one, .two, .three{
-	margin-bottom: 15px;
-
-}
 @media screen and (min-width: 370px) {
+	/*--overviewPage @370--*/
 	.title{
 		padding-left: 20px;
 		font-size: 9.5vw;
@@ -737,16 +646,20 @@ p.aboutHide, p.experienceHide, p.projectsHide{
 		padding-left: 30px;
 		font-weight: 200;
 	}
+	/*--overviewPage @370 END--*/
+
+	/*--aboutPage @370--*/
 	.aboutPic{
 		height:150px;
 		width:150px;
 	}
+	/*--aboutPage @370 END--*/
 
+	/*--projectsPage @370--*/
 	.frogpic{
 		width:90px;
 		height:72px;
 	}
-
 
 	.reviewPic{
 		background: url(../images/OnSiteReview1.jpg);
@@ -764,32 +677,42 @@ p.aboutHide, p.experienceHide, p.projectsHide{
 		margin-left: 15px;
 		margin-right: 0px;
 	}
+	/*--projectsPage @370 END--*/
+
+}/*--@media 370px END--*/
 
 
-}
+
 
 @media screen and (min-width: 440px){
+	/*--projectsPage @440--*/
 	.reviewPic{
-	width: 350px;
-	height:143px;
-	margin-left: 10px;
+		width: 350px;
+		height:143px;
+		margin-left: 10px;
 	}
+	/*--projectsPage @440 END--*/
+}/*--@media 440px END--*/
 
 
-}
+
 
 @media screen and (min-width: 484px) {
+	/*--All pages @484--*/
 	.ContactBtnTopMobil{
 		display:none;
 	}
 
 	.ContactBtnTop{
-	display:block;
-	float:right;
-	margin-top: 30px;
-	margin-right: 30%;
-	
+		display:block;
+		float:right;
+		margin-top: 30px;
+		margin-right: 30%;
 	}
+	/*--All pages @484 END--*/
+
+
+	/*--overviewPage @484--*/
 	.title{	
 	font-size: 3.5em;
 	}
@@ -797,63 +720,75 @@ p.aboutHide, p.experienceHide, p.projectsHide{
 	.subTitle{
 		font-size:1.5em;
 	}
+	/*--overviewPage @484 END--*/
 
+
+	/*--projectsPage @484--*/
 	.frogpic{
-	background: url(../images/iphoneFrogsmall2.png);
-	background-size: cover;
-	width: 166px;
-	height:350px;
-	border-radius: none;
-	box-shadow: none;
-	margin-bottom: none;
+		background: url(../images/iphoneFrogsmall2.png);
+		background-size: cover;
+		width: 166px;
+		height:350px;
+		border-radius: none;
+		box-shadow: none;
+		margin-bottom: none;
 	}
 
 	.ezKeysMacBook{
-		
 		width:400px;
 		height:232px;
-
 	}
 
 	.projectsPage .content{
-	min-height: 350px;
-}
+		min-height: 350px;
+	}
+	/*--projectsPage @484 END--*/
+
+}/*--@media 484px END--*/
 
 
-}
+
+
 
 @media screen and (min-width: 530px) {
+	/*--projectsPage @530--*/
 	.reviewPic{
-	width: 440px;
-	height:180px;
+		width: 440px;
+		height:180px;
 	}
+	/*--projectsPage @530 END--*/
+}/*--@media 530px END--*/
 
-	
 
-}
+
 
 @media screen and (min-width: 550px){
+	/*--overviewPage @550--*/
 	a .site .infoBar p{
 		display:block;
 	}
 	.infoBar{
 		height:60px;
 	}
-}
+	/*--overviewPage @550 END--*/
+}/*--@media 550px END--*/
+
+
+
 
 @media screen and (min-width: 688px) {
+
+	/*--All pages @688--*/
 	.header{
-	margin-right: 0px;
-    margin-left: 0px;
+		margin-right: 0px;
+    	margin-left: 0px;
 	}
 	
 	.ContactBtnTop{
-	width: 180px;
-	margin-top: 10px;
-	margin-right:10px;
-	display:block;
-
-	
+		width: 180px;
+		margin-top: 10px;
+		margin-right:10px;
+		display:block;
 	}
 
 	.ContactBtnTop:hover{
@@ -861,141 +796,95 @@ p.aboutHide, p.experienceHide, p.projectsHide{
 	}
 
 	.navTitle{
-	display:block;
-	z-index: 799;
+		display:block;
+		z-index: 799;
 	}
+
 	.nav{
-	float:right;
-	position:absolute;
-	bottom: -10px;
-	right: 20px;
-
+		float:right;
+		position:absolute;
+		bottom: -10px;
+		right: 20px;
 	}
-
 
 	.nav > li {
-    float: left;
+    	float: left;
 	}
 
 	.nav > li > a {
 		padding-top: 20px;
 	}
 
-
 	.aboutPage .aboutNav, 
 	.overviewPage .overviewNav, 
 	.experiencePage .experienceNav, 
 	.projectsPage .projectsNav  {
-	font-size: 1.5em;	
-	border:none;
-	border-bottom: solid rgba(215,229,92,0.95) 10px;
+		font-size: 1.5em;	
+		border:none;
+		border-bottom: solid rgba(215,229,92,0.95) 10px;
 	}
 
 	.overviewNav, .aboutNav, .experienceNav, .projectsNav{
-	font-size: 1.5em ;
-	line-height: .2;
+		font-size: 1.5em ;
+		line-height: .2;
 	}
+	/*--All pages @688 END--*/
 
+
+	/*--projectsPage @688--*/
 	.quickDraw{
-	background: url(../images/quickDraw2.png);
-	background-size: cover;
-	width: 166px;
-	height:320px;
-	border-radius: none;
-	box-shadow: none;
-	margin-bottom: none;
+		background: url(../images/quickDraw2.png);
+		background-size: cover;
+		width: 166px;
+		height:320px;
+		border-radius: none;
+		box-shadow: none;
+		margin-bottom: none;
 	}
 
 	.ezKeysMacBook{
 		width:601px;
 		height:349px;
 	}
+	/*--projectsPage @688 END--*/
 
-	
-}
+}/*--@media 688px END--*/
+
+
+
 
 /*----------------------------------*/
 /*---------START FULL SCREEN--------*/
 @media screen and (min-width: 768px) {
+	/*--All pages @768--*/
+	.navContain{
+		position:fixed;
+		z-index:700;
+		left:0;
+	}
 
+	.mainContent{
+		padding-top: 180px;
+	}
 
-/*this is not done need to fix header*/
-.navContain{
-	position:fixed;
-	z-index:700;
-	left:0;
-}
+	.header{
+		position: relative;
+		height: 145px;
+	}
 
-
-
-
-/*
-.title{
-	padding-left: 20px;
-	font-size: 3.5em;
-	text-shadow: 1px 1px 5px rgba(0,0,0,0.1);
-	font-weight: 300;
-}
-.subTitle{
-	font-size:1.5em;
-	margin-top: -1px;
-	padding-bottom: 20px;
-	padding-left: 30px;
-	font-weight: 200;
-}
-*/
-.mainContent{
-	padding-top: 180px;
-}
-
-
-.header{
-	position: relative;
-	height: 145px;
-
-}
-
-.logo{
+	.logo{
+		height: 160px;
+		width:121px;
+	}
+	/*--All pages @768 END--*/
 	
-	height: 160px;
-	width:121px;
-	
+	.overviewPage ul{
+		float:left;
+	}
 
-}
-
-
-.overviewPage ul{
-	float:left;
-
-}
-
-.nav li{
-	float: left;
-
-}
-
-a{
-
-}
-
-
-
-/*
-.experienceNav{
-	color:#630063;
-	display:inline;
-	position: absolute;
-	
-}
-
-.projectsNav{
-	color:red;
-	display: inline;
-	position: absolute;
-	
-}
-*/
-/*^^^^^^this is not done need to fix header*/
+	.nav li{
+		float: left;
+	}
 
 	.col-xs-12.aboutBox{
     	background: url(../images/mePacifica.jpg);
@@ -1005,28 +894,19 @@ a{
     .col-xs-12.experienceBox{
     	background: url(../images/officespaceSm2.jpg);
     	background-size:cover;
-
     }
+
     .col-xs-12.projectsBox{
     	background: url(../images/scafold3.jpg);
-    	background-size: cover;
-    	
+    	background-size: cover;	
     }
 
     .col-xs-12.aboutBox,.col-xs-12.experienceBox,.col-xs-12.projectsBox {
-    	
         height:456px;
         width:32%;	
     	margin-right: 1.33333%;
-    	box-shadow: 0px 4px 8px rgba(0,0,0,0.50);
-        
-    }
-   
-
-
-    .aboutMe:hover{
-
-    }
+    	box-shadow: 0px 4px 8px rgba(0,0,0,0.50);  
+    }   
     
     .experience, .aboutMe, .projects {
     	color:black;
@@ -1040,23 +920,19 @@ a{
     	padding-left: 10px;
     }
 
-
     .site{
     	  margin-right: 1.33333%
     }
 
     .two{
-	background: url(../images/NJFrogLogoFullScreen.jpg);
-	background-size: cover;
-
+		background: url(../images/NJFrogLogoFullScreen.jpg);
+		background-size: cover;
 	}
 
 	.three{
-	background: url(../images/EzKeysFullScreen.jpg);
-	background-size: cover;
-
+		background: url(../images/EzKeysFullScreen.jpg);
+		background-size: cover;
 	}
-
 
 	.infoBar{
 		display:block;
@@ -1064,16 +940,14 @@ a{
 		width:100%;
 		height:100%;
 	}
+
 	.infoBar{
 		display:none;
 	}
+
 	a .site .infoBar li{
 		display:block;
 	}
-
-	
-
-
 }
 
 
