@@ -392,6 +392,7 @@ p.aboutHide, p.experienceHide, p.projectsHide{
 .siteContent{
 	margin-bottom: 50px;
 }
+
 .site{
 	position: relative;
 	background-color: black;
@@ -402,8 +403,8 @@ p.aboutHide, p.experienceHide, p.projectsHide{
 .one, .two, .three{
 	margin-bottom: 15px;
 }
-
 /*-- END Overview Page--*/
+
 
 /*--about page content--*/
 .content{
@@ -447,9 +448,6 @@ p.aboutHide, p.experienceHide, p.projectsHide{
 /*--End about page content--*/
 
 /*-- Experience Page--*/
-.experiencePage .mainContent ul{
-	margin-bottom: 20px;
-}
 
 .resumeTitle{
 	text-align: center;
@@ -461,22 +459,7 @@ p.aboutHide, p.experienceHide, p.projectsHide{
 	margin-top: 50px;
 }
 
-.jobInfo li:nth-child(n+2){
-	float:left;
-	clear: left;
-}
-
-.jobInfo li:nth-child(n+3){
-	float:right;
-	clear:right;
-}
-
-.jobInfo li:nth-child(3){
-	margin-top: -18px;
-}
-
 .details{
-	margin-top: 30px;
 	margin-bottom: 50px;
 	list-style-type: disc;
 	padding-left: 20px;
@@ -486,11 +469,10 @@ p.aboutHide, p.experienceHide, p.projectsHide{
 .details li{
 	margin-top: 10px;
 }
-
 /*-- End Experience Page --*/
 
-/*--Projects page content--*/
 
+/*--Projects page content--*/
 .projectsPage h3:hover{
 	color:#2b4754;
 	text-decoration: underline;
@@ -565,7 +547,6 @@ p.aboutHide, p.experienceHide, p.projectsHide{
 .gitHub.gitFrog{
 	margin-top: 100px;
 }
-
 /*--End Projects page content--*/
 
 
@@ -616,6 +597,25 @@ p.aboutHide, p.experienceHide, p.projectsHide{
 	}
 	/*--projectsPage @370 END--*/
 
+	/*--experience Page @370 --*/
+	.jobInfo li:nth-child(n+2){
+	float:left;
+	clear: left;
+	}
+
+	.jobInfo li:nth-child(n+3){
+	float:right;
+	clear:right;
+	}
+
+	.jobInfo li:nth-child(3){
+	margin-top: -18px;
+	}
+
+	.details{
+	margin-top: 30px;
+	}
+	/*--experience Page @370 END--*/
 }/*--@media 370px END--*/
 
 
@@ -686,7 +686,6 @@ p.aboutHide, p.experienceHide, p.projectsHide{
 
 
 
-
 @media screen and (min-width: 530px) {
 	/*--projectsPage @530--*/
 	.reviewPic{
@@ -708,6 +707,23 @@ p.aboutHide, p.experienceHide, p.projectsHide{
 		height:60px;
 	}
 	/*--overviewPage @550 END--*/
+
+
+	/*--experience Page @550 --*/
+	.collegeInfo li:nth-child(n+2){
+	float:left;
+	clear: left;
+	}
+
+	.collegeInfo li:nth-child(n+3){
+	float:right;
+	clear:right;
+	}
+
+	.collegeInfo li:nth-child(3){
+	margin-top: -18px;
+	}
+	/*--experience Page @550 END--*/
 }/*--@media 550px END--*/
 
 
