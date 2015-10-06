@@ -453,6 +453,29 @@ p.aboutHide, p.experienceHide, p.projectsHide{
 	text-align: center;
 }
 
+.word{
+	background: url(../images/MSword.png);
+	background-size: cover;
+	margin-left:10px; 
+
+}
+
+.pdf{
+	background: url(../images/pdf.png);
+	background-size: cover;
+
+	
+
+}
+
+.download{
+	width:50px;
+	height:50px;
+	float:right;
+	margin-top: 19px;
+	
+}
+
 .experiencePage .mainContent h2{
 	margin-bottom: 0px;
 	font-size: 1.2em;
