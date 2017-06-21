@@ -559,6 +559,17 @@ p.aboutHide, p.experienceHide, p.projectsHide{
 	margin-top: 10	0px;
 }
 
+.letsGitItMacBook{
+	background: url(../images/letsGitItComputer.png);
+	background-size: cover;
+	width:300px;
+	height:174px;
+	margin:auto;
+	display:none;
+	margin-top: 100px;
+	/*margin-top: 10	0px;*/
+}
+
 .gitHub.gitEz{
 	margin-top: 10px;
 }
@@ -606,7 +617,7 @@ p.aboutHide, p.experienceHide, p.projectsHide{
 		box-shadow: 0px 4px 8px rgba(0,0,0,0.30);
 	}
 
-	.ezKeysMacBook{
+	.letsGitItMacBook, .ezKeysMacBook{
 		display:block;
 	}
 
@@ -690,7 +701,7 @@ p.aboutHide, p.experienceHide, p.projectsHide{
 		margin-bottom: none;
 	}
 
-	.ezKeysMacBook{
+	.letsGitItMacBook, .ezKeysMacBook{
 		width:400px;
 		height:232px;
 	}
@@ -814,7 +825,7 @@ p.aboutHide, p.experienceHide, p.projectsHide{
 		margin-bottom: none;
 	}
 
-	.ezKeysMacBook{
+	.letsGitItMacBook,.ezKeysMacBook{
 		width:601px;
 		height:349px;
 	}
