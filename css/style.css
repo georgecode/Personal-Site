@@ -421,7 +421,7 @@ p.aboutHide, p.experienceHide, p.projectsHide{
 .aboutPic{
 	height:100px;
 	width:100px;
-	box-shadow: 0px 4px 8px rgba(0,0,0,0.50);
+	/*box-shadow: 0px 4px 8px rgba(0,0,0,0.50);*/
 	display:block;
 	float: right;
 	margin:10px;
@@ -681,7 +681,7 @@ p.aboutHide, p.experienceHide, p.projectsHide{
 
 	/*--projectsPage @484--*/
 	.frogpic{
-		background: url(../images/iphoneFrogsmall2.png);
+		background: url(../images/iphoneFrogNew.png);
 		background-size: cover;
 		width: 166px;
 		height:350px;
