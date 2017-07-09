@@ -9,13 +9,13 @@
 
 
 //Hopefully this will prevent some spaming
-$(".myMail").append(" GeorgeCzurlanis@gmail.com")
-$(".PhoneMail").html("(609) 384-5438 | GeorgeCzurlanis@gmail.com")
-$(".address").html("1151 Wisconsin St., San Francisco, California 94107")
+$(".myMail").append("George@GeorgeCzurlanis.com")
+$(".PhoneMail").html("George@GeorgeCzurlanis.com")
+$(".address").html("San Francisco Bay Area")
 //spaming prevention END
 
 
-//Slide up curtain animation on home page start 
+//Slide up curtain animation on home page start
 var mainContent = function(target,title,hiddenContent){
 
     $(target).mouseenter(function() {
@@ -23,7 +23,7 @@ var mainContent = function(target,title,hiddenContent){
             $(title).stop(true,false).animate(
                     {"height": "100%"},
                     "slow").css({
-                        'background-color': 'rgba(215,229,92,0.95)', 
+                        'background-color': 'rgba(215,229,92,0.95)',
                         'transition': 'background-color 1.0s ease'
                         });
             $(hiddenContent).stop(true,false).fadeIn(500)
@@ -40,10 +40,10 @@ var mainContent = function(target,title,hiddenContent){
                     'background-color': 'rgba(215,229,92,0.95)'
                 });
         $(hiddenContent).stop(true,false).fadeOut(500)
-        
+
     	}
     });
-} 
+}
 
 mainContent(".aboutBox",".aboutMe",".aboutHide")
 mainContent(".experienceBox",".experience",".experienceHide")
@@ -55,13 +55,13 @@ var projectSites = function(num){
         if (Modernizr.mq('(min-width: 767px)')) {
             $(target).css({"display":"block"})
         }
-    }) 
+    })
 
     $(num).mouseleave(function() {
         if (Modernizr.mq('(min-width: 767px)')) {
             $(target).css({"display":"none"})
         }
-    })               
+    })
 }
 
 
