@@ -936,3 +936,25 @@ p.aboutHide, p.experienceHide, p.projectsHide{
 
 }/*--@media 768px END--*/
 
+
+
+
+/*Contact Modal Start*/
+
+.formWrapper{
+	padding:20px;
+}
+
+.nameInput, .emailInput{
+margin-bottom:10px;
+}
+
+.emailInputBox{
+	margin-left:6px;
+}
+.formWrapper textarea{
+	min-width: 100%;
+	margin-top:3px;
+}
+
+/*Contact Modal END*/
