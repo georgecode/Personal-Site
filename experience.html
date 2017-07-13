@@ -16,9 +16,22 @@
 	<div class="col-sm-12 navContain">
 		<div class= "header">
 			<div class="logo"></div>
-			<a href="mailto:georgeczurlanis@gmail.com?Subject=Hey%20George%20tell%20me%20more%20about%20yourself">
+
+
+
+
+<!-- 			<a href="mailto:georgeczurlanis@gmail.com?Subject=Hey%20George%20tell%20me%20more%20about%20yourself">
+				<button class="ContactBtnTop">Contact Me!</button>
+			</a> -->
+
+						<!-- Model Trigger Start -->
+			<a href="#" class="nav-link" data-toggle="modal" data-target=".bd-example-modal-lg">
 				<button class="ContactBtnTop">Contact Me!</button>
 			</a>
+			<!-- Model Trigger End -->
+
+
+
 			<div class="navTitle">Together we can develop the future.
 			<br>One line at a time.</div>
 
@@ -33,9 +46,20 @@
 	</div>
 
 	<div class="container-fluid mainContent">
-		<a href="mailto:georgeczurlanis@gmail.com?Subject=Hey%20George%20tell%20me%20more%20about%20yourself">
+
+
+
+<!-- 		<a href="mailto:georgeczurlanis@gmail.com?Subject=Hey%20George%20tell%20me%20more%20about%20yourself">
+			<button class="ContactBtnTopMobil">Contact Me!</button>
+		</a> -->
+
+
+				<!-- Model Trigger Mobile Start -->
+		<a href="#" data-toggle="modal" data-target=".bd-example-modal-lg">
 			<button class="ContactBtnTopMobil">Contact Me!</button>
 		</a>
+		<!-- Model Trigger Mobile End -->
+
 		<div class="resume">
 			<h1 class="resumeTitle">George R. Czurlanis</h1>
 			<p class="resumeTitle address"></p>
@@ -155,6 +179,52 @@
 
 		<div class="myMail">&copy; 2016 &nbsp; &nbsp; </div>
 	</footer>
+
+
+
+	<!-- MODEL START -->
+<!-- <a href="#" class="nav-link" data-toggle="modal" data-target=".bd-example-modal-lg">XXXXXContact Us</a> -->
+
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+    	<div class="formWrapper">
+    		<div class="close" data-toggle="modal" data-target=".bd-example-modal-lg">
+      		<a>X</a>
+      	</div>
+
+      	<div class="meEmailLogo"></div>
+
+      	<form action="https://formspree.io/george@georgeczurlanis.com" method="POST">
+<!-- ^^^^^^^^^^^^^Replace email@email.com with your email address ^^^^^^^^^^^^^^^ -->
+	    	<div class="nameInput">
+	    		Name:
+	    	<input type="text" name="name" placeholder="Your name">
+				</div>
+
+	    	<div class="emailInput">
+	    		Email:
+	    		<input class="emailInputBox"type="email" name="_replyto" placeholder="Your email">
+				</div>
+
+    		<div class="messageInput">
+    			Message:
+	    		<textarea class="textInput" name="message" wrap="hard"  rows="20" placeholder="Your message"></textarea>
+				</div>
+				</br>
+
+	    	<input class="inputSubmit" type="submit" value="Send">
+				</form>
+      	</div><!-- END class="close" data-toggle="modal" data-target=".bd-example-modal-lg" -->
+    	</div>
+    </div> <!-- END class="modal-content"> -->
+  </div>
+<!-- </div> -->
+<!-- MODEL END -->
+
+
+
+
 
 </div> <!--End mainWrapper-->
 
