@@ -5,25 +5,7 @@
 	<title>George Czurlanis</title>
 
 	<!--
-	##       #### ##    ## ########    ##      ## ##     ##    ###    ######## 
-	##        ##  ##   ##  ##          ##  ##  ## ##     ##   ## ##      ##    
-	##        ##  ##  ##   ##          ##  ##  ## ##     ##  ##   ##     ##    
-	##        ##  #####    ######      ##  ##  ## ######### ##     ##    ##    
-	##        ##  ##  ##   ##          ##  ##  ## ##     ## #########    ##    
-	##        ##  ##   ##  ##          ##  ##  ## ##     ## ##     ##    ##    
-	######## #### ##    ## ########     ###  ###  ##     ## ##     ##    ##
-
-	##    ##  #######  ##     ##     ######  ######## ########  #######   #######  
-	 ##  ##  ##     ## ##     ##    ##    ## ##       ##       ##     ## ##     ## 
-	  ####   ##     ## ##     ##    ##       ##       ##             ##        ##  
-	   ##    ##     ## ##     ##     ######  ######   ######       ###       ###   
-	   ##    ##     ## ##     ##          ## ##       ##          ##        ##     
-	   ##    ##     ## ##     ##    ##    ## ##       ##                           
-	   ##     #######   #######      ######  ######## ########    ##        ##  
-
-
 	Shoot me an email, GeorgeCzurlanis@gmail.com
-
 	-->
 
 	<link rel="icon" type="image/png" href="images/favcon.png">
@@ -38,9 +20,13 @@
 	<div class="col-sm-12 navContain">
 		<div class= "header">
 			<div class="logo"></div>
-			<a href="mailto:georgeczurlanis@gmail.com?Subject=Hey%20George%20tell%20me%20more%20about%20yourself">
+
+			<!-- Model Trigger Start -->
+			<a href="#" class="nav-link" data-toggle="modal" data-target=".bd-example-modal-lg">
 				<button class="ContactBtnTop">Contact Me!</button>
 			</a>
+			<!-- Model Trigger End -->
+
 			<div class="navTitle">Together we can develop the future.
 			<br>One line at a time.</div>
 			<ul class="nav">
@@ -53,26 +39,30 @@
 	</div>
 
 	<div class="container-fluid mainContent">
-		<a href="mailto:georgeczurlanis@gmail.com?Subject=Hey%20George%20tell%20me%20more%20about%20yourself">
+
+		<!-- Model Trigger Mobile Start -->
+		<a href="#" data-toggle="modal" data-target=".bd-example-modal-lg">
 			<button class="ContactBtnTopMobil">Contact Me!</button>
 		</a>
+		<!-- Model Trigger Mobile End -->
+
 		<div class="content">
 			<div class="aboutPic ComputerOutsidePic"></div>
 			<h3>General</h3>
 
-			<p class="professional">I&#39m a front-end web developer living in Potrero Hill, San Francisco.  My love affair with the Internet began after I started a small ecommerce business.  This experience ultimately changed the direction of my education and professional path.  This business has come and gone, but my passion for the web and technology has only grown.</p>  
+			<p class="professional">I&#39m a front-end web developer living in Potrero Hill, San Francisco.  My love affair with the Internet began after I started a small ecommerce business.  This experience ultimately changed the direction of my education and professional path.  This business has come and gone, but my passion for the web and technology has only grown.</p>
 			<p>After graduating college I took a job with a small conversion optimization company. During this time, I learned firsthand the importance of quality UX and ultimately how it effects visitor conversion.  These experiences taught me what makes a good website, and ultimately lead me to learn front-end development.</p>
 		</div>
 		<div class="content">
 			<div class="aboutPic surfingPic"></div>
 			<h3>Hobbies Personal Life</h3>
-			<p class="Hobbies">I love the outdoors and particularly surfing&#133; small waves, big waves, long boarding, short boarding, it doesn&#39t matter I just love being in the ocean.  
+			<p class="Hobbies">I love the outdoors and particularly surfing&#133; small waves, big waves, long boarding, short boarding, it doesn&#39t matter I just love being in the ocean.
 			My other passion is music. When I&#39m not jamming with friends, I&#39m Listing to music, learning a new instrument, or seeking out live music.</p>
 		</div>
 		<div class="content">
 			<div class="aboutPic AsGamePic"></div>
 			<h3>Why San Francisco</h3>
-			<p class="whyHere">In 300 years from now when historians are writing about the great information and technological revolution, they will be writing about the bay area.  I chose to move to San Francisco because I wanted to be surround myself with the brightest minds and talent of this era, not to mention the abundance of musical talent, and world-class surfing.</p> 
+			<p class="whyHere">In 300 years from now when historians are writing about the great information and technological revolution, they will be writing about the bay area.  I chose to move to San Francisco because I wanted to surround myself with the brightest minds and talent of this era, not to mention the abundance of musical talent, and world-class surfing.</p>
 		</div>
 	</div><!--END container-fluid mainContent-->
 
@@ -82,16 +72,58 @@
 
 
 	<footer>
-		<a href="https://github.com/georgecode?tab=repositories" target="_blank">
+		<a href="https://github.com/georgecode" target="_blank">
 			<div class="gitHub"></div>
 		</a>
 
-		<a href="https://www.linkedin.com/pub/george-czurlanis/50/9a8/390" target="_blank">
+		<a href="https://www.linkedin.com/in/georgeczurlanis/" target="_blank">
 			<div class="linkedIn"></div>
 		</a>
 
-		<div class="myMail">&copy; 2015 &nbsp; &nbsp; </div>
+		<div class="myMail">&copy; 2016 &nbsp; &nbsp; </div>
 	</footer>
+
+
+<!-- MODEL START -->
+<!-- <a href="#" class="nav-link" data-toggle="modal" data-target=".bd-example-modal-lg">XXXXXContact Us</a> -->
+
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+    	<div class="formWrapper">
+    		<div class="close" data-toggle="modal" data-target=".bd-example-modal-lg">
+      		<a>X</a>
+      	</div>
+
+      	<div class="meEmailLogo"></div>
+
+      	<form action="https://formspree.io/george@georgeczurlanis.com" method="POST">
+<!-- ^^^^^^^^^^^^^Replace email@email.com with your email address ^^^^^^^^^^^^^^^ -->
+	    	<div class="nameInput">
+	    		Name:
+	    	<input type="text" name="name" placeholder="Your name">
+				</div>
+
+	    	<div class="emailInput">
+	    		Email:
+	    		<input class="emailInputBox"type="email" name="_replyto" placeholder="Your email">
+				</div>
+
+    		<div class="messageInput">
+    			Message:
+	    		<textarea class="textInput" name="message" wrap="hard"  rows="20" placeholder="Your message"></textarea>
+				</div>
+				</br>
+
+	    	<input class="inputSubmit" type="submit" value="Send">
+				</form>
+      	</div><!-- END class="close" data-toggle="modal" data-target=".bd-example-modal-lg" -->
+    	</div>
+    </div> <!-- END class="modal-content"> -->
+  </div>
+<!-- </div> -->
+<!-- MODEL END -->
+
 
 </div> <!--End mainWrapper-->
 
