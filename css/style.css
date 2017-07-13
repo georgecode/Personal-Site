@@ -940,6 +940,14 @@ p.aboutHide, p.experienceHide, p.projectsHide{
 
 
 /*Contact Modal Start*/
+.meEmailLogo{
+	background:url(../images/meGmail.png);
+	background-size: cover;
+	width:70px;
+	height:75px;
+	margin-left:15px;
+	margin-bottom:10px;
+}
 
 .formWrapper{
 	padding:20px;
