@@ -320,7 +320,7 @@ a .site .infoBar li{
 }
 
 .three{
-	background: url(../images/EzKeysLogoWide.jpg) center;
+	background: url(../images/btc_logo_wide.jpg);
 	background-size: cover;
 }
 
@@ -945,8 +945,8 @@ p.aboutHide, p.experienceHide, p.projectsHide{
 	}
 
 	.three{
-		background: url(../images/EzKeysFullScreen.jpg);
-		background-size: cover;
+/*		background: url(../images/EzKeysFullScreen.jpg);
+		background-size: cover;*/
 	}
 
 	.infoBar{
