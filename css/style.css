@@ -518,7 +518,7 @@ p.aboutHide, p.experienceHide, p.projectsHide{
 	margin: bottom:20px;
 }
 
-.quickDraw, .frogpic, .btcpic{
+.quickDraw, .frogpic, .btcpic, .parity{
 	display:block;
 	float: right;
 	margin-left: 10px;
@@ -526,6 +526,16 @@ p.aboutHide, p.experienceHide, p.projectsHide{
 
 .quickDraw{
 	background: url(../images/QD_logo.png);
+	background-size: cover;
+	width: 70px;
+	height:70px;
+	border-radius: 10px;
+	/*box-shadow: 0px 4px 8px rgba(0,0,0,0.90);*/
+	margin-bottom: 15px;
+}
+
+.parity{
+	background: url(../images/parityLogo.png);
 	background-size: cover;
 	width: 70px;
 	height:70px;
@@ -638,6 +648,16 @@ p.aboutHide, p.experienceHide, p.projectsHide{
 		box-shadow: 0px 4px 8px rgba(0,0,0,0.30);
 	}
 
+	.reviewPic2{
+		background: url(../images/Mina_Rec.jpg);
+		background-size: cover;
+		width: 300px;
+		height:123px;
+		box-shadow: 0px 4px 8px rgba(0,0,0,0.30);
+	}
+
+
+
 	.letsGitItMacBook, .ezKeysMacBook{
 		display:block;
 	}
@@ -674,7 +694,7 @@ p.aboutHide, p.experienceHide, p.projectsHide{
 
 @media screen and (min-width: 440px){
 	/*--projectsPage @440--*/
-	.reviewPic{
+	.reviewPic, .reviewPic2{
 		width: 350px;
 		height:143px;
 		margin-left: 10px;
@@ -749,7 +769,7 @@ p.aboutHide, p.experienceHide, p.projectsHide{
 
 @media screen and (min-width: 530px) {
 	/*--projectsPage @530--*/
-	.reviewPic{
+	.reviewPic, .reviewPic2{
 		width: 440px;
 		height:180px;
 	}
@@ -854,6 +874,16 @@ p.aboutHide, p.experienceHide, p.projectsHide{
 		border-radius: none;
 		box-shadow: none;
 		margin-bottom: none;
+	}
+
+	.parity{
+		background: url(../images/iphoneParity.png);
+		background-size: cover;
+		width: 165px;
+		height:340px;
+		border-radius: none;
+		box-shadow: none;
+		margin-bottom: none;		
 	}
 
 	.letsGitItMacBook,.ezKeysMacBook{
